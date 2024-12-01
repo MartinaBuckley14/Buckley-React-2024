@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    width: 100%;
+    
+    
+    .conteiner-nav {
+        
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+
+            .brand {
+                color: whitesmoke;
+                margin-bottom: 0;
+                font-size: 45px;
+            }
+            .logo {
+                max-width: 50%;
+               
+            }
+        }
+        .menu {
+            
+            .navbar-nav {
+                min-width: 100%;
+                justify-content: center;
+                gap: 3rem;
+
+                .nav-link {
+                    font-size: 30px;
+                    color: white;
+                }
+            }
+        }
+       
+    }
+
+    .carrito{
+        display: flex;
+        margin: 5rem;
+
+        .cartwidget {
+            color: whitesmoke;
+            font-size: 60px;
+        }
+        .cartwidget_cantidad {
+            color: whitesmoke;
+        }
+    }
+    
+}
