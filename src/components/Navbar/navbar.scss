@@ -38,6 +38,10 @@
                     font-size: 30px;
                     color: white;
                 }
+
+                .dropdown-item {
+                    font-size: 30px;
+                }
             }
         }
        
@@ -46,6 +50,8 @@
     .carrito{
         display: flex;
         margin: 5rem;
+        background-color: transparent;
+        border: none;
 
         .cartwidget {
             color: whitesmoke;
@@ -53,6 +59,7 @@
         }
         .cartwidget_cantidad {
             color: whitesmoke;
+            font-size: 25px;
         }
     }
     

@@ -1,0 +1,68 @@
+.item-detail {
+    background-color: rgb(32, 32, 32);
+    max-width: 100%;
+    padding: 4em;
+
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: .5fr 2fr;
+    grid-template-areas: 
+    " foto  titulo"
+    " foto  detalle";
+    align-items: center;
+    justify-content: space-evenly;
+
+    .image-detail-conteiner {
+        grid-area: foto;
+        background-color:rgb(214, 179, 136);
+        border-radius: 1rem;
+        
+        
+        .main-image {
+            max-width: 100%;
+            max-height: 100%;
+            margin: 1.5rem;
+            align-self: stretch;
+
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+
+    .title-detail {
+        grid-area: titulo;
+        max-width: 100%;
+        color: whitesmoke;
+        font-size: 60px;
+       align-self: center;
+       padding: 4rem;
+       margin: 1rem;
+    }
+
+    .text-detail-conteiner {
+        grid-area: detalle;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: start;
+        gap: 2rem;
+        margin: 3rem;
+        color: whitesmoke;
+        height: 100%;
+
+        .text-detail{
+            font-size: 30px;
+            padding: 2rem;
+        }
+        .text-detail-price {
+            padding: 2rem;
+            font-size: 30px;
+            align-self: flex-end;
+        }
+        
+    }
+
+
+}
