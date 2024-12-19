@@ -1,0 +1,41 @@
+
+.formulario-conteiner {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 2rem;
+    width: 50%;
+    height: 100%;
+    margin: 4rem auto;
+
+
+    input, textarea {
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 100%;
+        justify-self: center
+    }
+      
+    textarea {
+        height: 100px;
+    }
+
+    ::placeholder{
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.499);
+    }
+
+    .boton-formulario {
+        max-width: 20%;
+        align-self: flex-end;
+        padding: .3rem;
+        border-radius: 8px;
+        font-size: 20px;
+    }
+
+}
+  
+  
+  

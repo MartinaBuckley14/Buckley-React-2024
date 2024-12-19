@@ -4,17 +4,17 @@ import { getProducts } from "../data/data.js";
 import { useParams } from "react-router-dom";
 
 const ItemDetailConteiner = () => {
-    const [detail, setDetail] = useState({})
+  const [detail, setDetail] = useState({})
 
-    const {idProduct} = useParams()
+  const {idProduct} = useParams()
 
-    useEffect(()=>{
+  useEffect(()=>{
 
-        getProducts()
-        .then( (data) => {
-          const productFind = data.find( (detailProduct) => detailProduct.id === idProduct )
+    getProducts()
+      .then( (data) => {
+        const productFind = data.find( (detailProduct) => detailProduct.id === idProduct )
           setDetail(productFind)
-        })
+      })
     },[idProduct])
     
   return (

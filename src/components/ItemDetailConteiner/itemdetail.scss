@@ -31,14 +31,28 @@
 
     }
 
-    .title-detail {
+    .title-detail-conteiner {
         grid-area: titulo;
         max-width: 100%;
-        color: whitesmoke;
-        font-size: 60px;
-       align-self: center;
-       padding: 4rem;
-       margin: 1rem;
+        display: flex;
+        justify-content: space-between;
+
+        
+
+       .title-detail {
+            color: whitesmoke;
+            font-size: 70px;
+            align-self: center;
+            padding: 4rem;
+            margin: 1rem;
+       }
+
+       .item-close-detail {
+            font-size: 40px;
+            color: whitesmoke; 
+            background-color: transparent;   
+            border: none;
+        }
     }
 
     .text-detail-conteiner {
