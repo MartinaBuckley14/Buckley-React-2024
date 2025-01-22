@@ -1,0 +1,27 @@
+.addproductincart {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    max-width: 50%;
+ 
+    .counter{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+        gap: 3rem;
+
+        font-size: 30px;
+
+        button {
+            width: 30px;
+            border-radius: 8px;
+        }
+    }
+
+    .addincart {
+        font-size: 30px;
+        border-radius: 8px;
+    }
+}
