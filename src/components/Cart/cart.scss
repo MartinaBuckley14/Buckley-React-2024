@@ -20,7 +20,7 @@
         .product-card-img {
            max-width: 150px;
            border-radius: .5rem;
-           border: 4px solid rgb(214, 179, 136);
+           border: 3px solid rgb(214, 179, 136);
         }
 
         .product-detail{
@@ -41,25 +41,60 @@
         }
     }
 
-    .finalprice {
-        color: whitesmoke;
-        font-size: 38px;
+    .info-cart {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        
+        max-width: 100%;
+        gap: 2rem;
 
-        align-self: flex-end;
-        margin-right: 3rem;
-    }
+        .finalprice {
+            color: whitesmoke;
+            font-size: 38px;
+            margin-right: 3rem;
+        }
 
-    .empty-cart-button {
-        font-size: 23px;
-        max-width: 25%;
-        align-self: flex-end;
-        margin-right: 3rem;
-        padding: .8rem;
-        background-color: transparent;
-        border: 2px solid rgb(214, 179, 136);
-        border-radius: .5rem;
-        color: whitesmoke;
+        .end-purchase {
+            font-size: 23px;
+            max-width: 100%;
+            align-self: flex-end;
+            margin-right: 3rem;
+            padding: .8rem;
+            background-color: transparent;
+            border: 2px solid rgb(214, 179, 136);
+            border-radius: .5rem;
+            color: whitesmoke;
+            text-decoration: none;
+        }
+
+        .back-home {
+            font-size: 23px;
+            max-width: 25%;
+            align-self: flex-end;
+            margin-right: 3rem;
+            padding: .8rem;
+            background-color: transparent;
+            border: 2px solid rgb(214, 179, 136);
+            border-radius: .5rem;
+            color: whitesmoke;
+            text-decoration: none;
+        }
+    
+        .empty-cart-button {
+            font-size: 23px;
+            max-width: 25%;
+            align-self: flex-end;
+            margin-right: 3rem;
+            padding: .8rem;
+            background-color: transparent;
+            border: 2px solid rgb(214, 179, 136);
+            border-radius: .5rem;
+            color: whitesmoke;
+            text-decoration: none;
+        }
     }
+    
 }
 
 .emptycart {

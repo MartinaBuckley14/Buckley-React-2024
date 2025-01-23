@@ -1,0 +1,34 @@
+.loading-view-conteiner {
+    color: whitesmoke;
+    font-size: 35px;
+    padding: 2rem;
+    margin-top: 3rem;
+
+    align-self: center;
+    
+
+    .load-icon {
+        align-self: center;
+
+        .fas .fa-spinner .fa-spin {
+            align-self: center;
+        }
+    }
+}
+
+.loading-order-conteiner {
+    color: whitesmoke;
+    font-size: 35px;
+    padding: 2rem;
+    margin-top: 3rem;
+
+    align-self: center;
+
+    .load-order-icon {
+        align-self: center;
+
+        .fas .fa-spinner .fa-spin {
+            align-self: center;
+        }
+    }
+}
