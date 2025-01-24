@@ -3,12 +3,13 @@
 # Tienda Señuelos FT Lures
 ### `Dev - Martina Buckley`
 
-<img src="https://www.instagram.com/senuelos_artesanales_ft/reel/DBxAoXvpv2z/">
-
 ## Descripcion
-La temática del proyecto es debido a que unos amigos tienen un emprendimiento de señuelos artesanales y me gustaria poder diseñarles una tienda en la cual puedan comercializarlos.
+La temática del proyecto es debido a que unos amigos tienen un emprendimiento de señuelos artesanales y me gustaria poder diseñarles una tienda en la cual puedan comercializarlos. <br><br>
 
-<iframe src="https://www.instagram.com/p/DBxAoXvpv2z/embed" width="200" height="240" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+<a href="https://www.instagram.com/senuelos_artesanales_ft/reel/DBxAoXvpv2z/" target="_blank">
+    <img src="public/img/WhatsApp Image 2025-01-23 at 22.55.32.jpeg" alt="Ver video" width="90">
+</a>
+
 
 
 ## Dependencias
